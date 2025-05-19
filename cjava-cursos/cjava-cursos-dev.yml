@@ -1,0 +1,9 @@
+spring:
+  datasource:
+  url: jdbc:h2:mem:escuela
+  driverClassName: org.h2.Driver
+  username: expert
+  password: cjavaperu
+
+server:
+  port: 8078

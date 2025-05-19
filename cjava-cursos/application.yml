@@ -1,0 +1,6 @@
+application:
+  author: Macos-BR-301
+  email: marcosbr301@gmail.com
+  version: 1.0.0
+  title: Spring Cloud Config Server
+  description: Spring Cloud Config by BD's
