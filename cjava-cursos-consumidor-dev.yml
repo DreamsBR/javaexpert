@@ -1,8 +1,17 @@
 application:
-  description: Aplicacion bajo arquitectura de micorservicios CJAVA 2023 para ambiente de Desarrollo
+  description: Aplicacion bajo arquitectura de micorservicios CJAVA 2024 para ambiente de Desarrollo
 
 configuracion:
-  mensaje: Configurando entorno Desarrollo CJAVA 2024
+  mensaje: Configurando entorno Desarrollo Java 2024
   autor:
-    nombre: Edwin Maravi
-    email: emaravi@cjavaperu.com
+    nombre: Marcos BR 301
+    email: marcosbr301@gmail.com
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
