@@ -7,9 +7,10 @@ spring:
 
   #definir dialecto mysql para hibernate
   jpa:
-    properties.hibernate.dialect: org.hibernate.dialect.MySQLDialect
+    properties:
     hibernate:
-      ddl-auto: create-drop
+      dialect: org.hibernate.dialect.MySQLDialect
+      ddl-auto: update
     show-sql: true
 
 server:
