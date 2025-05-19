@@ -1,0 +1,5 @@
+server:
+    port: 9081
+
+configuracion:
+    mensaje: Configurando ambiente por defecto
