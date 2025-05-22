@@ -1,0 +1,15 @@
+application:
+  author: Marcos Basurto
+  email: marcosbr301@gmail.com
+  version: 1.0.0
+  title: Aplicacion SpringBoot para curso Expert 2024
+  description: Aplicacion bajo arquitectura de micorservicios CJAVA 2024
+
+config:
+  security:
+    oauth:
+      client:
+        id: cjava
+        secret: "12345"
+      jwt:
+        key: cj
